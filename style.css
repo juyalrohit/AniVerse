@@ -238,6 +238,8 @@ i {
     color:white;
     font-size:2.3vw;
     mix-blend-mode:darken;
+    white-space: none;
+    
 
 }
 
