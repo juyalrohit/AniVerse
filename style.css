@@ -222,7 +222,7 @@ i {
     position:fixed;
     display: flex;
     align-items: center;
-    gap:800px;
+    gap:680px;
     margin-top:-6px;
    
 }
@@ -232,21 +232,23 @@ i {
     gap:8px;
     padding:1rem;
     transition: transform 0.9s ease;
+    margin-left: 10px;
 }
 
 .nav-bar h1{
     color:white;
-    font-size:2.3vw;
+    font-size:2.2vw;
     mix-blend-mode:darken;
-    white-space: none;
+    white-space: nowrap;
     
 
 }
 
 .nav-bar .part1 img{
-   width:50px;
-   height: 50px;
+   width:46px;
+   height: 46px;
    border-radius: 50%;
+   opacity: 0.7;
    transition: transform 0.9s ease;
 
 }
@@ -268,11 +270,11 @@ i {
 .nav-bar a{
     color:white;
     font-weight: 800;
-    font-size:1.2rem;
+    font-size:1rem;
     text-decoration:none;
     text-transform:capitalize;
-    width:70px;
-    height: 35px;
+    width:62px;
+    height: 32px;
    
     text-align: center;
     padding:5px;
@@ -285,10 +287,10 @@ i {
 
 }
 .nav-bar .part2 img{
-    height: 35px;
-    width:35px;
+    height: 32px;
+    width:32px;
     border-radius: 50%;
-    margin-top:0px;
+    margin-top:2px;
   
 
 }
@@ -303,12 +305,12 @@ i {
    
 }
 .search-section h1{
-    font-size:1.9rem;
+    font-size:1.8rem;
     margin-bottom:40px;
     margin-left: 20px;
     font-weight: 700;
-   color:white;
-   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color:white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   
 }
 #slogan{
@@ -335,8 +337,8 @@ i {
 
   /* Search bar styles */
 .container1 .search-bar {
-    width: 50rem;
-    height: 4rem;
+    width: 46rem;
+    height: 3.5rem;
     border-radius: 5rem;
     background-color: rgb(255, 255, 255);
     position: relative;
@@ -350,18 +352,18 @@ i {
   /* Search icon styles */
   .container1 i {
     position: absolute;
-    top:73%;
-    left:28%;
+    top:73.7%;
+    left:27.7%;
     transform: translate(-50%,-50%);
     opacity: 0.4;
     z-index: 999;
-    font-size:30px;
+    font-size:27px;
   }
   
   /* Input area styles */
   #input-area {
     flex-grow: 1; /* Allow input area to grow */
-    padding-left: 2rem; /* Space between icon and input text */
+    padding-left: 1rem; /* Space between icon and input text */
     font-size: 20px;
     outline: none; /* Remove focus outline */
     overflow-wrap:break-word;
@@ -395,8 +397,8 @@ i {
 }
 
 .shows .card{
-    width:190px;
-    height: 260px;
+    width:180px;
+    height: 230px;
     
     
 }
@@ -436,15 +438,16 @@ i {
    
 }
 .logo_section img{
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     opacity: 0.6;
 }
 .logo_section h1{
     color:white;
+    font-size: 30px;
 }
 .footer .authantication{
-    width: 40%;
+    width: 38%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -454,6 +457,7 @@ i {
 }
 .authantication p{
   color:white;
+  font-size:14px;
 }
 .footer .contact{
     margin-top:60px;
@@ -461,19 +465,25 @@ i {
 
 .footer .contact h3{
     color:white;
-    text-transform: uppercase;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 20px;
     padding: 20px;
 }
 .footer .contact .social{
     display: flex;
     flex-direction: column;
-    gap:20px;
-    padding:20px;
+    gap:21px;
+    padding:18px;
+}
+.contact a{
+  font-size:13px;
 }
 .social a{
     color:white;
     text-decoration: none;
+}
+.moreAnsless .toggle-para{
+  display: none;
 }
 
 .footer .about{
@@ -485,18 +495,17 @@ i {
     
 }
 
-.moreAnsless .toggle-para{
-  display: none;
-}
 
 .about h4{
     color:white;
     margin-bottom: 20px;
+
 }
 
 .about p{
     color:white;
-    line-height: 25px;
+    font-size: 15px;
+    line-height: 23px;
 
 }
 
@@ -713,19 +722,20 @@ i {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap:30px;
-        margin-top: 1px;
+        gap:54px;
+        margin-top: 2px;
     }
+   
     
     .nav-bar .part1 {
         display: flex;
-        gap:8px;
+        gap:10px;
         padding:0.5rem;
     }
     
     .nav-bar h1{
         color:white;
-        font-size:5.3vw;
+        font-size:5.4vw;
         white-space: nowrap;
     
     }
@@ -734,6 +744,7 @@ i {
        width:32px;
        height: 32px;
        border-radius: 50%;
+      
     
     }
     
@@ -747,8 +758,8 @@ i {
         font-weight: 400;
         font-size:0.7rem;
         text-decoration:none;
-        width:45px;
-        height: 25px;
+        width:43px;
+        height: 23px;
     }
     .nav-bar .part2 img{
         height: 20px;
@@ -756,6 +767,7 @@ i {
         border-radius: 50%;
         margin-top:2px;
         margin-right:5px;
+        display: none;
     
     }
     .container1 .search-section {
@@ -802,8 +814,8 @@ i {
       
     .container1 i {
         position: absolute;
-        top:72%;
-        left:10%;
+        top:71.5%;
+        left:11.4%;
         transform: translate(-50%,-50%);
         opacity: 0.4;
         pointer-events: none;
@@ -894,7 +906,7 @@ i {
     }
     .authantication p{
       color:white;
-      font-size:11px;
+      font-size:9px;
       white-space: nowrap;
     }
     .footer .contact{
@@ -903,10 +915,10 @@ i {
     
     .footer .contact h3{
         color:white;
-        text-transform: uppercase;
         font-size: 9px;
         padding: 20px;
         letter-spacing: 0.8px;
+        font-weight: 900;
       
 
 
@@ -945,6 +957,7 @@ i {
     .about p{
         color:white;
         line-height: 11px;
+        letter-spacing:0.09px;
         font-size:9px;
         
     }
