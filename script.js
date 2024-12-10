@@ -239,10 +239,7 @@ async function fetchAnime() {
    
   });
 
-  if(window.innerWidth<350){
-    document.querySelector('#change').innerHTML =  " Hi, I'm Rohit Juyal, a passionate frontend developer who loves bringing ideas to life with clean, dynamic designs. I’m also an anime enthusiast.";
-  }
-
+  
 // Verify if added to the DOM
 
 let lastScrollTop = 0;

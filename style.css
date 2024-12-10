@@ -508,6 +508,14 @@ i {
     line-height: 23px;
 
 }
+.about #change::before{
+  content:"  Hi, I'm Rohit Juyal, a passionate frontend developer who loves bringing ideas to life with clean, dynamic designs. I’m also an anime enthusiast, which inspired me to create this anime rating website. Explore, rate, and dive into the world of anime with me!" ;
+}
+@media (max-width: 550px) {
+  .about #change::before {
+    content: "Hi, I'm Rohit Juyal, a passionate frontend developer who loves bringing ideas to life with clean, dynamic designs. I’m also an anime enthusiast.";
+  }
+}
 
 
 
